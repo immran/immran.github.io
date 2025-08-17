@@ -441,10 +441,25 @@ h1, h2, h3, h4, h5, h6 {
 .skill-badge.react { background: #61DAFB; color: #000; }
 .skill-badge.nextjs { background: #000000; }
 .skill-badge.typescript { background: #3178C6; }
+.skill-badge.javascript { background: #F7DF1E; color: #000; }
 .skill-badge.nodejs { background: #339933; }
 .skill-badge.java { background: #ED8B00; }
-.skill-badge.spring { background: #6DB33F; }
+.skill-badge.kotlin { background: #7F52FF; }
 .skill-badge.android { background: #3DDC84; }
+.skill-badge.docker { background: #2496ED; }
+.skill-badge.github { background: #181717; }
+.skill-badge.cdk { background: #FF9900; }
+.skill-badge.mongodb { background: #47A248; }
+.skill-badge.dynamodb { background: #4053D6; }
+.skill-badge.mysql { background: #4479A1; }
+.skill-badge.graphql { background: #E10098; }
+.skill-badge.rest { background: #FF6B6B; }
+.skill-badge.oauth { background: #EB5424; }
+.skill-badge.jwt { background: #000000; }
+.skill-badge.webrtc { background: #333333; }
+.skill-badge.elasticsearch { background: #FED10A; color: #000; }
+.skill-badge.kafka { background: #231F20; }
+.skill-badge.firebase { background: #FFCA28; color: #000; }
 
 /* Projects Section */
 .projects {
@@ -539,6 +554,49 @@ h1, h2, h3, h4, h5, h6 {
 .experience {
     padding: 6rem 0;
     background: var(--bg-primary);
+}
+
+/* Availability Section */
+.availability {
+    padding: 6rem 0;
+    background: var(--bg-secondary);
+}
+
+.availability-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.availability-item {
+    background: var(--bg-primary);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: var(--shadow-light);
+    transition: all 0.3s ease;
+    border: 1px solid var(--border-color);
+}
+
+.availability-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-heavy);
+}
+
+.availability-item i {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.availability-item h3 {
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+}
+
+.availability-item p {
+    color: var(--text-secondary);
+    line-height: 1.6;
 }
 
 .timeline {
