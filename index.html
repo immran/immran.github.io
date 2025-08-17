@@ -1,7 +1,381 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Technical Architect with 12+ years of experience in scalable web and mobile solutions. Expert in Node.js, React, AWS, and AI technologies.">
+    <meta name="keywords" content="Technical Architect, Node.js, React, AWS, Azure, AI, Cloud Architecture, System Design">
+    <meta name="author" content="Imran">
+    <title>Immran - Technical Architect</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Immran Fareedh</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <button class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Immran</span>
+                </h1>
+                <h2 class="hero-subtitle">Technical Architect</h2>
+                <p class="hero-description">
+                    Building scalable architectures today, exploring AI for tomorrow
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Connect with Me</a>
+                    <a href="#" class="btn btn-secondary" id="download-resume">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <div class="profile-placeholder">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="profile-placeholder large">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <p>
+                        Technical Architect with 12+ years of experience designing and delivering scalable, high-performance web and mobile solutions. Recently promoted into an architecture role, I bring a strong background in Node.js, Next.js, React.js, and Android development, with a proven ability to adapt to evolving technologies and drive innovation.
+                    </p>
+                    <p>
+                        I specialize in creating tailored solutions that align with complex business needs, bridging the gap between strategy and execution. My career has been shaped by leading cross-functional teams, fostering collaboration, and ensuring projects are delivered on time, within budget, and to the highest standards of quality.
+                    </p>
+                    <p>
+                        As a Project Lead turned Architect, I've consistently designed systems that not only support immediate requirements but also anticipate future scalability and performance demands. I thrive at the intersection of backend engineering, system design, and emerging technologies, with a growing focus on artificial intelligence and how it can transform businesses and enhance user experiences.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Strengths Section -->
+    <section class="strengths">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Core Strengths</h2>
+            <div class="strengths-grid">
+                <div class="strength-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="strength-icon">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <h3>System Design</h3>
+                    <p>Architecting scalable, high-performance systems that meet complex business requirements</p>
+                </div>
+                <div class="strength-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="strength-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Architecture</h3>
+                    <p>Designing and implementing cloud-native solutions on AWS and Azure platforms</p>
+                </div>
+                <div class="strength-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="strength-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI Integration</h3>
+                    <p>Leveraging artificial intelligence to transform business processes and user experiences</p>
+                </div>
+                <div class="strength-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="strength-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Leadership</h3>
+                    <p>Leading cross-functional teams and fostering collaboration to deliver exceptional results</p>
+                </div>
+                <div class="strength-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="strength-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Client Collaboration</h3>
+                    <p>Building strong partnerships and understanding complex business needs</p>
+                </div>
+                <div class="strength-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="strength-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Innovation</h3>
+                    <p>Driving technological innovation and staying ahead of emerging trends</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up">
+                    <h3>Cloud Platforms</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge aws">AWS</span>
+                        <span class="skill-badge azure">Azure</span>
+                    </div>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Frontend</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge react">React</span>
+                        <span class="skill-badge nextjs">Next.js</span>
+                        <span class="skill-badge typescript">TypeScript</span>
+                    </div>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Backend</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge nodejs">Node.js</span>
+                        <span class="skill-badge java">Java</span>
+                        <span class="skill-badge spring">Spring Boot</span>
+                    </div>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Mobile</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge android">Android</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A scalable e-commerce solution built with Next.js, Node.js, and AWS. Features include real-time inventory management, payment processing, and AI-powered product recommendations.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">AI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Mobile Banking App</h3>
+                        <p>A secure mobile banking application with biometric authentication, real-time transactions, and AI-powered fraud detection. Built for Android with Java and Spring Boot backend.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Android</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">AI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Analytics Dashboard</h3>
+                        <p>A real-time analytics dashboard with interactive visualizations, data processing pipelines, and machine learning insights. Built with React, TypeScript, and Azure services.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Azure</span>
+                            <span class="tech-tag">ML</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Technical Architect</h3>
+                        <p class="timeline-company">Current Role</p>
+                        <p class="timeline-description">
+                            Leading architectural decisions, designing scalable systems, and driving technological innovation across multiple projects. Focus on cloud-native solutions and AI integration.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Project Lead</h3>
+                        <p class="timeline-company">Previous Role</p>
+                        <p class="timeline-description">
+                            Led cross-functional teams, managed project delivery, and ensured high-quality outcomes. Bridged technical and business requirements while mentoring team members.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Senior Developer</h3>
+                        <p class="timeline-company">Early Career</p>
+                        <p class="timeline-description">
+                            Developed robust web and mobile applications using modern technologies. Built expertise in Node.js, React, and Android development while contributing to system architecture.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in new opportunities and collaborations. Feel free to reach out!</p>
+                    <div class="contact-links">
+                        <a href="mailto:your.email@example.com" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            your.email@example.com
+                        </a>
+                        <a href="https://github.com/immran" class="contact-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                            github.com/immran
+                        </a>
+                        <a href="https://linkedin.com/in/yourprofile" class="contact-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            linkedin.com/in/yourprofile
+                        </a>
+                        <a href="https://twitter.com/yourhandle" class="contact-link" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                            @yourhandle
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Imran. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/immran" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/yourhandle" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
